@@ -1,7 +1,15 @@
+body, html{
+    background-color:black;
+}
+
+
+
+
 /*Nav Styles */
 .ct-nav{
     display: flex;
     justify-content: space-between;
+    background-color: black;
 }
 
 /* Target Main Logo Image */
@@ -21,7 +29,7 @@ ul#horizontal-list li, ul#horizontal-list a{
     display:inline;
     text-decoration:none;
     padding: 0.5vw;
-    color:black;
+    color:white;
 }
 
 ul#horizontal-list a:nth-last-child(1){
@@ -34,11 +42,14 @@ ul#horizontal-list a:nth-last-child(1){
 /* Start of Hero/Header Section */
 #header-text{
     padding: 2vw;
+    background-color: black;
+    color:white;
 }
 
 .header-image{
     width: 82%;
     max-width: 100%;
+    background-color: black;
 }
 /* End of Hero/Header Section */
 
@@ -46,6 +57,8 @@ ul#horizontal-list a:nth-last-child(1){
 #middle-text{
     text-align: center;
     padding: 13vh;
+    background-color: black;
+    color: white;
 }
 
 #middle-text h2{
@@ -63,10 +76,17 @@ ul#horizontal-list a:nth-last-child(1){
 
 #features-section{
     margin: 8vw;
-    margin-left: 5px;
-    margin-right: 5px;
-    width:8px;
+    background-color: black;
+    color: white;
 }
+#but-1,#but-2,#but-3,#but-4{
+    -webkit-box-shadow: 0px 0px 14px white;
+    -moz-box-shadow: 0px 0px 14px white;
+    box-shadow: 0px 0px 14px white;
+    border:1px solid white;
+
+}
+
 /* End of Features Section */
 
 /* Community Section Styles */
@@ -74,6 +94,9 @@ ul#horizontal-list a:nth-last-child(1){
     width: 50%;
     max-width: 75%;
     margin-left: 3vw;
+}
+#socials{
+    color:white;
 }
 /* End of Community Section */
 
@@ -90,15 +113,16 @@ ul#horizontal-list a:nth-last-child(1){
 }
 
 #footer{
-    border-top: 3px solid black;
+    border-top: 3px solid #FF0000;
     margin-top: 20vh;
+    color:white;
 }
 
 
 /* Profile Styles */
 .hero-section{
     height: 95vh;
-    background-image: url(../images/roadster.png);
+    background-image: url(../images/wifi-whip.jpg);
     background-size: cover;
     background-position: 35% 50%;
     -webkit-clip-path: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
@@ -114,3 +138,9 @@ ul#horizontal-list a:nth-last-child(1){
     top: 10rem;
     color: white;
 }
+
+#header-text, h5{
+    font-size: medium;
+
+}
+
